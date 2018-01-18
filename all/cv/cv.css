@@ -1,0 +1,75 @@
+html{
+	background:black;
+}
+
+body{
+	border-style:5px solid red;
+	padding:top 0 20px;
+	background:#fff;
+	margin:auto;
+	width:80%;
+
+}
+header{
+	padding:10px;
+	margin:0;
+	overflow:hidden;
+	background:#ededed;
+
+}
+.img{
+	float:left;
+
+}
+img{
+
+	border-radius:50%;
+	width:150px;
+	height:150px;
+
+}
+.name{
+	margin-left:20px;
+	float:left;
+
+}
+.profile{
+	margin-right:20px;
+	float:right;
+
+}
+.contant{
+	padding:10px;
+	
+	clear:both;
+}
+.row{
+	padding:15px;
+	border-bottom:3px solid teal; 
+	overflow:hidden;
+
+}
+.row:last-child{
+	border: none;
+
+}
+.c-left{
+	font-style:italic;
+	width:25%;
+	float:left;
+
+}
+.c-right{
+	margin:0;
+	padding:0;
+	width:75%;
+	float:right;
+
+}
+.same{
+	width:33%;
+	float:left;
+}
+h3 {
+	font-style:italic;
+}

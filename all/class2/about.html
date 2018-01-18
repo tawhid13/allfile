@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>class two</title>
+	<style>
+	html{
+		background: #aaa;
+	}
+	body{
+		background: salmon;
+		width: 80%;
+		box-sizing: border-box;
+		border:3px solid blue;
+		margin: auto;
+	}
+		img{
+			width: 200px;
+			height: 150px;
+		}
+		ul li{
+			display: inline-block;
+		}
+		.box{
+			margin: 0 0 0 5px;
+			float: left;
+		}
+		.box1{
+			margin: 0 5px;
+			float: right;
+		}
+		#home{
+			display:inline-block;
+			float: left;
+			margin: 0 0 0 20px;
+			background: teal;
+			box-sizing: border-box;
+			border:2px solid red;
+			padding:5px;
+		}
+		#about{
+			padding: 10px;
+			clear:both;
+		}
+		#contact{
+			padding: 10px;
+		}
+		
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="#home">home</a></li>
+		<li><a href="#about">about</a></li>
+		<li><a href="#contact">contact</a></li>
+	</ul>
+	<div class="box">
+	<h3>absolute</h3>
+	<img src="C:\Users\lenovo\Pictures\Camera Roll\tawhid.jpg"> </div>
+	<div class="box1">
+	<h3>relative image path </h3>
+	<img src="google.png" alt="this is a google image" title="google image"> </div>
+	<div id="home">
+		<h1>my 2nd day of web design</h1>
+		<a href="about.html">visit relative about page</a>
+		<a href="its a google link" target="-blank" href="https://www.google.com/">visit google</a>
+		<form action="serverpage.php" method="get">
+			<div>
+				<label>name:</label>
+				<input id="name" type="text" name="name" placeholder="Enter your name">
+			</div>
+			<div>
+			  <label>email:</label>
+			  <input type="email" name="email" placeholder="enter your email">
+			</div>
+			<div>
+				<label>password:</label>
+				<input type="password" name="password" placeholder="enter your password">
+			</div>
+			<div>
+				<input type="radio" name="gender">Male
+				<input type="radio" name="gender">Female
+			</div>
+			<div>
+				<label>Mobile number:</label>
+				<input type="tel" name="mobile" placeholder="enter your mobile number">
+			</div>
+			<div>
+				<input type="checkbox" name="skills">html
+				<input type="checkbox" name="skills">css
+				<input type="checkbox" name="skills">js
+				<input type="checkbox" name="skills">php
+			</div>
+			<div>
+				<label>Your home:</label>
+				<select name="city">
+					<option value="1">dhaka</option>
+					<option value="2">chittagong</option>
+					<option value="3">feni</option>
+					<option value="4">comilla</option>
+				</select>
+			</div>
+			<div>
+				<label>Massage:</label>
+				<textarea name="comments"></textarea>
+			</div>
+			<div class="sub">
+				<input type="submit">
+			</div>
+			
+		</form>
+
+	</div>
+	<div id="about">
+		<h2>about section</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div id="contact">
+		<h2>contacts section</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+</body>
+</html>
